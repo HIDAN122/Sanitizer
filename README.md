@@ -1,17 +1,17 @@
-# WAAVI Sanitizer
+# Hidan122 Sanitizer
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/waavi/sanitizer.svg?style=flat-square)](https://packagist.org/packages/waavi/sanitizer)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/hidan122/sanitizer.svg?style=flat-square)](https://packagist.org/packages/hidan122/sanitizer)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/waavi/sanitizer/master.svg?style=flat-square)](https://travis-ci.org/waavi/sanitizer)
-[![Total Downloads](https://img.shields.io/packagist/dt/waavi/sanitizer.svg?style=flat-square)](https://packagist.org/packages/waavi/sanitizer)
+[![Build Status](https://img.shields.io/travis/hidan122/sanitizer/master.svg?style=flat-square)](https://travis-ci.org/hidan122/sanitizer)
+[![Total Downloads](https://img.shields.io/packagist/dt/hidan122/sanitizer.svg?style=flat-square)](https://packagist.org/packages/hidan122/sanitizer)
 
-## About WAAVI
+## About Hidan122
 
-WAAVI is a Spanish web development and product consulting agency, working with Startups and other online businesses since 2013. Need to get work done in Laravel or PHP? Contact us through [waavi.com](http://waavi.com/en/contactanos).
+Hidan122 is a Spanish web development and product consulting agency, working with Startups and other online businesses since 2013. Need to get work done in Laravel or PHP? Contact us through [hidan122.com](http://hidan122.com/en/contactanos).
 
 ## Introduction
 
-WAAVI Sanitizer provides an easy way to format user input, both through the provided filters or through custom ones that can easily be added to the sanitizer library.
+Hidan122 Sanitizer provides an easy way to format user input, both through the provided filters or through custom ones that can easily be added to the sanitizer library.
 
 Although not limited to Laravel 5 users, there are some extensions provided for this framework, like a way to easily Sanitize user input through a custom FormRequest and easier extensibility.
 
@@ -118,7 +118,7 @@ You can add your own filters by passing a custom filter array to the Sanitize co
 
 To install, just run:
 
-    composer require waavi/sanitizer ~1.0
+    composer require hidan122/sanitizer ~2.0
 
 And you're done! If you're using Laravel, in order to be able to access some extra functionality you must register both the Service provider in the providers array in config/app.php, as well as the Sanitizer Facade:
 
@@ -186,4 +186,4 @@ The only difference with a Laravel FormRequest is that now you'll have an extra 
 
 ### License
 
-WAAVI Sanitizer is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+Hidan122 Sanitizer is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
